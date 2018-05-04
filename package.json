@@ -1,0 +1,8 @@
+{
+  "name": "user_scroll",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+<table class="table sortable">
+  <thead>
+    <tr>
+      <th>firstname</th>
+      <th>lastname</th>
+      <th>email</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  <tbody >
+<%= render partial: "user", locals: {user: @user}%>
+</tbody>
+</table>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
